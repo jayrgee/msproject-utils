@@ -20,6 +20,21 @@ Number12: Physical Percent Complete
 Flag2: Work Order Executed
 ```
 
+## Prerequisites
+
+Requires:
+
+- Windows
+- Microsoft Project desktop installed
+- Access to the target `.mpp` file
+- Windows Script Host for running the VBScript report with `cscript`
+- Microsoft Project VBA access for importing and running the VBA report
+
+Developed and tested on:
+
+- Windows 11
+- Microsoft Project Online Desktop Client MSO, Version 2606 Build 16.0.20131.20154, 64-bit
+
 ## Run the VBScript report
 
 Use `vbscript/project-report.vbs` when you want to open an MPP file by path, print the report to the console, and close the file without saving changes.
